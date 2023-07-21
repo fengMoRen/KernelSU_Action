@@ -1,23 +1,23 @@
-**中文** | [English](README_EN.md)
+**Chinese** | [English](README_EN.md)
 
-# 说明
+#explain
 
-无论你想做什么操作，请Fork本项目后再进行。
+Whatever you want to do, please Fork it after this project.
 
-本项目没有选择构建Boot，如果你想构建Boot，将`.env`文件中`Make boot image`改为true，并且提取并上传当前系统的Boot镜像，将外链填写至`Source boot image`。
+This project does not choose to build a Boot. If you want to build a Boot, you will`.env`In the file`Make boot image`Change it to true, and extract and upload the Boot image of the current system, and fill in the external chain to.`Source boot image`。
 
-如果你不想构建Boot，你可以直接跑Actions进行编译。
+If you don't want to build the Boot, you can just run Actions to compile it.
 
-如果你想编译其它内核的KSU，建议新建一个`.env`文件和`workflows`，`config.env`和`build-kernel.yml`都是默认模板文件。
+If you want to compile KSU of other kernels, it is recommended to create a new one.`.env`Documents and`workflows`，`config.env`and`build-kernel.yml`Are default template files.
 
-随时随地备份你的Boot，以防止翻车，请确认当前内核是否支持你当前的系统。
+Back up your Boot anytime and anywhere to prevent rollover. Please confirm whether the current kernel supports your current system.
 
 
 # KernelSU Action
 
-用于 Non-GKI Kernel 的 Action，具有一定的普遍性，需要了解内核及 Android 的相关知识得以运用。
+Action used in Non-GKI Kernel has certain universality, and it needs to know the kernel and Android knowledge to be used.
 
-## 警告:warning: :warning: :warning:
+##warn:warning: :warning: :warning:
 
 如果你不是内核作者，使用他人的劳动成果构建KernelSU，请仅供自己使用，不要分享给别人，这是对原作者的劳动成果的尊重。
 
